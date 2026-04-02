@@ -1,0 +1,11 @@
+dataset_name: "BJL"
+save_dir: "./compare_result"
+
+uavid_dir: "./data/uavid_255"
+vaihingen_dir: "./data/vaihingen"
+potsdam_dir: "./data/potsdam"
+bjl_dir: "C:/Users/48188/Data/VOCdevkit_BJL"
+yyl_dir: "C:/Users/48188/Data/VOCdevkit_YYL"
+
+model_list:
+  - "SegFormer"
