@@ -139,12 +139,17 @@ SCA-SAM 的训练工具函数文件，通常包含训练循环、验证循环、
 - `fig/FIG_BJL.png`
 - `fig/FIG_YYL.png`
 
+![FIG_BJL.png](fig/FIG_BJL.png)
+![FIG_YYL.png](fig/FIG_YYL.png)
+
 这类图一般用于展示不同模型在同一数据集上的分割结果可视化对比。 
 
 ### 4.2 `draw_ZoomIn_fig.py`
 该脚本用于绘制局部区域放大对比图。例如：
 
 - `fig/Zoom_in.png`
+
+![Zoom_in.png](fig/Zoom_in.png)
 
 因此这个脚本对应的图通常用于展示滑坡局部边界、细节区域的放大结果。 
 
@@ -153,6 +158,8 @@ SCA-SAM 的训练工具函数文件，通常包含训练循环、验证循环、
 
 - `fig/Ablation_Zoom_in.png`
 
+![Ablation_Zoom_in.png](fig/Ablation_Zoom_in.png)
+
 脚本主函数中还直接给出了 `BJL` 和 `YYL` 的若干样本编号与放大区域设置，因此它主要用于展示不同消融设置在典型样本上的分割差异。 
 
 ### 4.4 `draw_Channel_Map.py`
@@ -160,12 +167,16 @@ SCA-SAM 的训练工具函数文件，通常包含训练循环、验证循环、
 
 - `fig/Channel_Map.png`
 
+![Channel_Map.png](fig/Channel_Map.png)
+
 通常可用于展示不同阶段或不同模块下的特征激活情况。 
 
 ### 4.5 `draw_Error_Cls.py`
 该脚本用于绘制错误分类分析图，例如：
 
 - `fig/Error_Cls.png`
+
+![Error_Cls.png](fig/Error_Cls.png)
 
 这类结果图适合用于分析模型错误区域、误检漏检情况或者类别混淆问题。 
 
